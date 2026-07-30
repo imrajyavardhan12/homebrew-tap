@@ -1,25 +1,25 @@
 class Margin < Formula
   desc "A fast, keyboard-first terminal diff viewer for Git changes, patches, and AI-authored code."
   homepage "https://github.com/imrajyavardhan12/Margin"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.2.0/margin-aarch64-apple-darwin.tar.xz"
-      sha256 "f4770649bcc8b18dd65d6479939ac97385aa8683fe90958cb61e21447c9f0b4f"
+      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.3.0/margin-aarch64-apple-darwin.tar.xz"
+      sha256 "327193481fac95d84b290da086fee0af9b48d936988be8b300b9a5f0a853c800"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.2.0/margin-x86_64-apple-darwin.tar.xz"
-      sha256 "07e27e92ba300f15362b44e719765545f508157d3158324d99c13b3e3905b4c9"
+      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.3.0/margin-x86_64-apple-darwin.tar.xz"
+      sha256 "2aa94249344d979741c59e5efdde9d33b8b6a305e880fab53e9bee5db9054615"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.2.0/margin-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d5fd6527e16b1395577b1689e8dbba840c8e0d0b94daf1187122ac33fb700389"
+      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.3.0/margin-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "86378b6cf5cf9673cebb7c0f4a332d67f239f0065e64878ce1387d230b014564"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.2.0/margin-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fb570695d0d545f89bdc5b20e538850420f0f6f2c7eb7d0482f13529abaff418"
+      url "https://github.com/imrajyavardhan12/Margin/releases/download/v0.3.0/margin-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d6267dbac4bfa034966f4a44136f5e7be1de9fcdfc3dcb52188ef56cda67b9f9"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
