@@ -1,9 +1,9 @@
 class Ripe < Formula
   desc "See and update every outdated app on your Mac"
   homepage "https://github.com/imrajyavardhan12/ripe"
-  url "https://github.com/imrajyavardhan12/ripe/releases/download/v0.2.0/ripe-0.2.0-universal-macos.tar.gz"
-  version "0.2.0"
-  sha256 "e697aa644f3f73b8753b1226e03d163b8c7af760af1131c9deba18995cb67a25"
+  url "https://github.com/imrajyavardhan12/ripe/releases/download/v0.3.0/ripe-0.3.0-universal-macos.tar.gz"
+  version "0.3.0"
+  sha256 "72f1eb7968618bfeb741a477fb5fcbc794c86e3e17fa51522ac3a19c3a387f2d"
   license "MIT"
 
   depends_on macos: :sonoma
